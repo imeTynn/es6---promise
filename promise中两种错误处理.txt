@@ -1,0 +1,2 @@
+1.用throw new Error()抛出错误，用catch((error)=>{error.message})接收错误
+2.用reject(错误信息).then(resolve函数,reject(value){  ..})接收
