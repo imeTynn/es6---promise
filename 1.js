@@ -1,7 +1,7 @@
 console.log('here we go');
-new Promise(reject=>{
+new Promise(resolve=>{
     setTimeout(()=>{
-        reject('hello');
+        resolve('hello');
     },200);
 })
 .then(function(res){
